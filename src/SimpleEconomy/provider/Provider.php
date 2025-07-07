@@ -15,7 +15,7 @@ class Provider {
 		$this->init();
 	}
 
-	public function init(): void {
+	private function init(): void {
 		$folder = $this->plugin->getDataFolder();
 		if (!is_dir($folder)) {
 			@mkdir($folder, 0777, true);

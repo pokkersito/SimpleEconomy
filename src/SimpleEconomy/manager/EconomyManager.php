@@ -24,4 +24,8 @@ class EconomyManager {
 	public function reduceMoney(string $player, int $amount): void {
 		$this->setMoney($player, max(0, $this->getMoney($player) - $amount));
 	}
+
+	public function getAllMoney(): array {
+		return Loader::getInstance()->getProvider()->getEconomyData()->getAll();
+	}
 }

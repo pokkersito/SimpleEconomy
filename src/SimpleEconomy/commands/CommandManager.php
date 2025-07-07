@@ -8,6 +8,7 @@ use SimpleEconomy\commands\SetMoneyCommand;
 use SimpleEconomy\commands\PayCommand;
 use SimpleEconomy\commands\TakeMoneyCommand;
 use SimpleEconomy\commands\SeeMoneyCommand;
+use SimpleEconomy\commands\TopMoneyCommand;
 
 
 class CommandManager {
@@ -20,6 +21,7 @@ class CommandManager {
     Loader::getInstance()->getServer()->getCommandMap()->register("SimpleEconomy", new SeeMoneyCommand());
     Loader::getInstance()->getServer()->getCommandMap()->register("SimpleEconomy", new TakeMoneyCommand());
     Loader::getInstance()->getServer()->getCommandMap()->register("SimpleEconomy", new AddMoneyCommand());
+    Loader::getInstance()->getServer()->getCommandMap()->register("SimpleEconomy", new TopMoneyCommand());
     }
     
     public function register(BaseCommand $command): void
