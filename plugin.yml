@@ -1,0 +1,12 @@
+name: SimpleEconomy
+version: 1.0.0
+api: 5.0.0
+main: SimpleEconomy\Loader
+author: Pokker77
+github: https://github.com/pokkersito
+
+permissions:
+  money.cmd:
+    default: true
+  money.cmd.admin:
+    default: op

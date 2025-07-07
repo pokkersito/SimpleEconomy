@@ -1,0 +1,19 @@
+#Configuracion de SimpleEconomy
+
+prefix: "&7[&6SimpleEconomy&7] &f» "
+
+#Mensaje
+
+in_game: "&cEste comando solo puede ser ejecutado en el juego"
+only_players: "&cEste comando solo lo pueden usar los Jugadores"
+offline: "&cJugador no conectado"
+set_money: "&aLe haz puesto a &6{player}, &a un total de &9{amount}"
+pay: "&aLe has pagado a &6{player} &aun total de &9{amount}"
+no_money: "&cTu saldo es insuficiente"
+no_pay: "&cNo puedes pagarte a ti mismo"
+take_money: "&aLe has quitado a &6{player} &aun total de &9{amount}"
+no_money_player: "&cEl Jugador no tiene saldo"
+no_take: "&cNo puedes quitarte saldo a ti mismo"
+add_money: "&aAgregaste {amount} al saldo de {player}"
+
+#Open Commisions: https://github.com/pokkersito
